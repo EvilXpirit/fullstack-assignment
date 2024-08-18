@@ -6,7 +6,7 @@ This project is a RESTful API for managing "Help Center" cards. It includes endp
 
 ## Project Structure
 
-    ```bash
+```bash
 
 backend
 ├── config
