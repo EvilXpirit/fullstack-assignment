@@ -6,7 +6,7 @@ const HelpCenter = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:4000/cards')
+    fetch('https://fullstack-assignment-25kc.onrender.com/cards')
       .then(response => response.json())
       .then(data => setCards(data))
       .catch(error => console.error('Error fetching data:', error));
