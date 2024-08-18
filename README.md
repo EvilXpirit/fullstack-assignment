@@ -51,7 +51,7 @@ UI-SCreen-1.png
 
 - Node.js
 - Express.js
-- MongoDB (with Mongoose)
+- MongoDB 
 
 ### Frontend:
 
