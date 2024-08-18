@@ -5,6 +5,7 @@ This project is a RESTful API for managing "Help Center" cards. It includes endp
 
 ## Project Structure
 
+    ```bash
 backend
 ├── config
 │ └── db.js
@@ -33,6 +34,7 @@ package.json
 backend.md
 frontend.md
 UI-SCreen-1.png
+    ```
 
 
 ## Features
