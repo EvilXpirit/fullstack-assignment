@@ -1,4 +1,5 @@
 # Full Stack Assignment
+
 ## Help Center API
 
 This project is a RESTful API for managing "Help Center" cards. It includes endpoints for creating, retrieving, and searching for help center cards, with a responsive frontend interface built using Vite + React and styled with Tailwind CSS.
@@ -6,6 +7,7 @@ This project is a RESTful API for managing "Help Center" cards. It includes endp
 ## Project Structure
 
     ```bash
+
 backend
 ├── config
 │ └── db.js
@@ -34,8 +36,7 @@ package.json
 backend.md
 frontend.md
 UI-SCreen-1.png
-    ```
-
+```
 
 ## Features
 
@@ -72,67 +73,67 @@ Ensure you have the following installed on your machine:
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/yourusername/help-center-api.git
-    cd help-center-api
-    ```
+   ```bash
+   git clone https://github.com/yourusername/help-center-api.git
+   cd help-center-api
+   ```
 
 2. Set up the backend:
 
-    - Navigate to the backend directory:
+   - Navigate to the backend directory:
 
-    ```bash
-    cd backend
-    ```
+   ```bash
+   cd backend
+   ```
 
-    - Install dependencies:
+   - Install dependencies:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
-    - Create a `.env` file with the following content:
+   - Create a `.env` file with the following content:
 
-    ```bash
-    PORT=4000
-    MONGO_URI=your_mongo_connection_string
-    ```
+   ```bash
+   PORT=4000
+   MONGO_URI=your_mongo_connection_string
+   ```
 
 3. Set up the frontend:
 
-    - Navigate to the frontend directory:
+   - Navigate to the frontend directory:
 
-    ```bash
-    cd ../frontend
-    ```
+   ```bash
+   cd ../frontend
+   ```
 
-    - Install dependencies:
+   - Install dependencies:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 ### Running the Server
 
 1. Start the backend server:
 
-    - In the backend directory, run:
+   - In the backend directory, run:
 
-    ```bash
-    npm start
-    ```
+   ```bash
+   npm start
+   ```
 
-    - The server will start on `http://localhost:4000`.
+   - The server will start on `http://localhost:4000`.
 
 2. Start the frontend:
 
-    - In the frontend directory, run:
+   - In the frontend directory, run:
 
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 
-    - The frontend will start on `http://localhost:5173`.
+   - The frontend will start on `http://localhost:5173`.
 
 ### Running the Frontend
 
@@ -147,4 +148,3 @@ Open your browser and navigate to `http://localhost:5173` to interact with the f
 ## Frontend
 
 The frontend application displays a search bar and a grid of help center cards. Users can search for specific cards using the search bar.
-
