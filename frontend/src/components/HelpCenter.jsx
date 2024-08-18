@@ -21,7 +21,7 @@ const HelpCenter = () => {
       <div className="bg-violet-200 pt-16 pb-20">
         <h1 className="text-5xl font-semibold text-center mb-8">How can we help?</h1>
         <div className="flex justify-center">
-          <div className="relative w-3/5 sm:w-2/5">
+          <div className="relative w-4/5 sm:w-2/5">
             <input
               type="text"
               placeholder="Search"
